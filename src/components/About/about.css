@@ -1,0 +1,28 @@
+.about {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.imageSection {
+    padding: 2rem;
+    max-width: 40rem;
+    min-width: 20rem;
+}
+
+.aboutContent {
+    padding: 2rem;
+    max-width: 40rem;
+    min-width: 20rem;
+}
+
+img {
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.imageContainer {
+    max-width: 35rem;
+    min-width: 15rem;
+}
