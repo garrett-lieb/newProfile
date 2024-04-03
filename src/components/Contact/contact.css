@@ -13,6 +13,10 @@
 
 .contactContent {
     padding: 2rem;
-    max-width: 40rem;
-    min-width: 20rem;
+    margin: 5rem;
+    background-color: rgb(193, 193, 193);
+    border: 1px solid cadetblue;
+    color: cadetblue;
+    border-radius: 5rem;
+    border-color: aliceblue
 }
