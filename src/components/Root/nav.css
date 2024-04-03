@@ -1,7 +1,7 @@
 .navBar {
     margin-top: 0;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     gap: 1rem;
     padding: 2rem;
     background-color: rgb(36, 22, 240);
@@ -9,6 +9,7 @@
 
 .navBar li {
     list-style: none;
+    width: 10%;
 }
 
 .navItem {
