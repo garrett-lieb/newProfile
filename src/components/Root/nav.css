@@ -34,6 +34,12 @@
     color: rgb(255, 255, 255);
 }
 
+.navItem:hover:hover {
+    border: 10px double;
+    color: aliceblue;
+    border-color: #646cff;
+}
+
 .menuButton {
     margin: 2rem;
     padding: 1rem;

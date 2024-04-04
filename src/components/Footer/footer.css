@@ -1,13 +1,9 @@
 .footer {
-    margin-top: 0.5rem;
-}
-
-.footerItem {
-    align-content: center;
+    display: flex;
     padding: 1rem;
-    background-image: linear-gradient(to right, white, cadetblue);
+    background-image: linear-gradient( rgb(47, 236, 253), rgb(0, 93, 101), rgb(0, 38, 42));
     background-color: cadetblue;
     font-size: large;
-    color: aliceblue;
+    color: rgb(0, 14, 26);
     text-align: center; 
 }

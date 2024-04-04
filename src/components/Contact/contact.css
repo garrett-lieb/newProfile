@@ -1,5 +1,7 @@
 .contact {
     padding: .5rem;
+    box-shadow: 20px 10px 15px 55px rgb(47, 236, 253);
+    border-radius: 5rem;
 }
 
 .contactContent {
@@ -12,4 +14,11 @@
     border-radius: 5rem;
     border-color: cadetblue;
     color: rgb(255, 255, 255);
+    
 }
+
+a:hover {
+    color: #646cff;
+    text-transform: uppercase;
+    text-decoration: overline;
+  }

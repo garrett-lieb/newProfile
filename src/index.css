@@ -2,10 +2,11 @@
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
+
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-image: url("jokebg.png");
-  background-repeat: repeat;
+  background-color: #242424;
+
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -15,11 +16,7 @@
 a {
   font-weight: 500;
   color: rgb(168, 4, 4);
-  text-decoration: bold;
-}
-a:hover {
-  color: rgb(1, 100, 186);
-  text-transform: none;
+  text-decoration: inherit;
 }
 
 body {
@@ -40,7 +37,7 @@ h1 {
   border: 10px solid;
   border-radius: 5rem;
   border-color: cadetblue;
-  box-shadow: 25px 10px 15px 5px rgb(47, 236, 253);
+  box-shadow: 25px 0px 15px 5px rgb(47, 236, 253);
   color: rgb(255, 255, 255);
 }
 
@@ -57,13 +54,15 @@ h2 {
 h3 {
   font-size: 2rem;
   line-height: 1.1;
-  background-color: 2416f0;
-
 }
 
 h4 {
+  padding-left: 1rem;
   font-size: 1.5rem;
   line-height: 1.1;
+  border: .5rem double;
+  border-radius: 1rem;
+  border-color: #646cff;
   color: black;
   background-color: aliceblue;
 }

@@ -8,8 +8,10 @@ p {
 }
 
 .projects {
-    padding: .5rem;
     display: flex;
+    justify-content: space-around;
+    box-shadow: 20px 10px 15px 55px rgb(47, 236, 253);
+    border-radius: 5rem;
 }
 
 .projectsContent {
@@ -36,7 +38,6 @@ p {
     gap: 2rem;
     grid-template-columns: repeat(3, 1fr);
 }
-
 
 
 .project1,
