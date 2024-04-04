@@ -91,18 +91,12 @@ const Root = () => {
 } -->
 
 
-const Root = () => {
-    return (
-        <div>
-                <select className="navBar">
-                        <option value="/">_About</option>
-                        <option value="/projects">_Projects</option>
-                        <option value="/contact">_Contact</option>
-                        <option value="/resume">_Resume</option>
-                </select>
-                <Outlet />
-        </div>
-    )
-}
 
-export default Root
+<!-- .downloadButton {
+    padding: 1rem;
+    background-color: rgb(0, 179, 196);
+    border: 10px solid;
+    border-radius: 5rem;
+    border-color: cadetblue;
+    color: rgb(255, 255, 255);
+} -->
