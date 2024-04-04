@@ -23,6 +23,7 @@ body {
   margin: 0;
   padding-top: 0;
   box-sizing: border-box;
+  align-items: center;
 }
 
 h1 {
@@ -30,8 +31,6 @@ h1 {
   line-height: 1.1;
   padding: 1rem;
   font-size: 3em;
-  color: antiquewhite;
-  color: antiquewhite;
   background-image: 
   linear-gradient(to right, rgb(0, 133, 145), rgb(0, 183, 200), rgb(0, 179, 176));
   border: 10px solid;
@@ -104,5 +103,26 @@ button:focus-visible {
   }
   button {
     background-color: #f9f9f9;
+  }
+}
+
+
+@media screen and (max-width: 840px) {
+  body {
+    display: flex;
+    align-items: center;
+  }
+  h3 {
+    text-align: center;
+  }
+}
+
+
+@media screen and (max-width: 320px) {
+  body {
+    display: table-column
+  }
+  h3 {
+    text-align: center;
   }
 }
