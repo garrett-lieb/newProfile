@@ -4,8 +4,8 @@ import './resume.css'
 const Resume = () => {
   return (
     <div class="resume">
-      <h1>Resume</h1>
       <section class="resumeContent">
+      <h1>Resume</h1>
         <h2>Experience</h2>
         <div class="job">
           <h3>Job Title</h3>
@@ -38,12 +38,10 @@ const Resume = () => {
           <h4>School Name</h4>
           <p>Graduation Year</p>
         </div>
+        <section class="download">
+        <a href="path/to/____________" download>Download A Copy</a>
       </section>
-      <section class="download">
-        <h4>Download A Copy</h4>
-        <a href="path/to/resume" download>Download</a>
       </section>
-      
       </div>
   )
 }

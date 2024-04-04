@@ -1,31 +1,62 @@
+h1 {
+display:flex;
+justify-content: flex-end;
+}
+
 .resume {
-    display: grid;
-    gap: 2rem;
+    padding: .5rem;
 }
 
 .resumeContent {
     padding: 2rem;
     margin: 5rem;
-    background-color: rgb(193, 193, 193);
-    border: 1px solid cadetblue;
-    color: cadetblue;
+    display: grid;
+    gap: 2rem;
+    background-color: rgb(0, 179, 196);
+    border: 10px solid;
     border-radius: 5rem;
-    border-color: aliceblue
+    border-color: cadetblue;
+    color: rgb(255, 255, 255);
+}
+
+.download {
+    margin: 1rem;
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: flex-start;
+    width: 50%;
+    background-color: cadetblue;
+    justify-content: middle;
+    color: rgb(0, 0, 0);
+    :hover {
+        background-color: cadetblue;
+        border-style: double;
+        border-width: 0.5rem;
+        border-radius: 1rem;
+        color: rgb(254, 203, 132);
+        padding: .5rem;
+    }
 }
 
 .job,
 .school {
     padding: 2rem;
-    background-color: rgb(36, 22, 240);
+    margin: 1rem;
     border-radius: 1rem;
     color: antiquewhite;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 184, 0.2);
 }
 
-.download {
-    padding: .5rem;
-    background-color: rgb(36, 22, 240);
-    border-radius: 1rem;
-    color: antiquewhite;
-    text-align: center;
-    margin: 1rem;
+.job{
+    border: 10px double;
+    border-radius: 2rem;
 }
+
+.school {
+    border: 10px double;
+    border-radius: 2rem;
+}
+
+
+

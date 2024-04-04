@@ -1,4 +1,13 @@
-footer {
-    height: 5vh;
-    width: 100%;
+.footer {
+    margin-top: 0.5rem;
+}
+
+.footerItem {
+    align-content: center;
+    padding: 1rem;
+    background-image: linear-gradient(to right, white, cadetblue);
+    background-color: cadetblue;
+    font-size: large;
+    color: aliceblue;
+    text-align: center; 
 }

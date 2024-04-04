@@ -5,17 +5,25 @@ import './about.css'
 const About = () => {
   return (
     <div className="about">
+            <section className="aboutContent">
+            <h1 class="headerItem">About Me</h1>
+            <p className="textBody">
+                testtesttesttesttesttesttesttesttesttesttesttesttesttesttesttest
+                testtesttesttesttesttesttesttesttesttesttesttesttesttesttesttest
+                testtesttesttesttesttesttesttesttesttesttesttesttesttesttesttest
+                testtesttesttesttesttesttesttesttesttesttesttesttesttesttesttest
+                testtesttesttesttesttesttesttesttesttesttesttesttesttesttesttest
+                testtesttesttesttesttesttesttesttesttesttesttesttesttesttesttest
+                testtesttesttesttesttesttesttesttesttesttesttesttesttesttesttest
+                testtesttesttesttesttesttesttesttesttesttesttesttesttesttesttest
+                testtesttesttesttesttesttesttesttesttesttesttesttesttesttesttest
+           </p>
+        </section>
         <section className="imageSection">
             <div className="imageContainer">
             <img src={stock} alt="" />
             </div>
             
-        </section>
-        <section className="aboutContent">
-            <h1>About Me</h1>
-            <p>
-                coding student oregon
-            </p>
         </section>
     </div>
   )
