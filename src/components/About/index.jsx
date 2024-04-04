@@ -1,5 +1,5 @@
 import React from 'react'
-import stock from '../../assets/stock.jpg'
+import jokebg from '../../assets/jokebg.png'
 import './about.css'
 
 const About = () => {
@@ -21,7 +21,8 @@ const About = () => {
         </section>
         <section className="imageSection">
             <div className="imageContainer">
-            <img src={stock} alt="" />
+            <img src={jokebg} alt="purple bg from chrome tools" height="20%" width="100%"/>
+
             </div>
             
         </section>
