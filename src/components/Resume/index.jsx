@@ -38,9 +38,6 @@ const Resume = () => {
           <h4>School Name</h4>
           <p>Graduation Year</p>
         </div>
-        <section class="download">
-        <a href="path/to/____________" download>Download A Copy</a>
-      </section>
       </section>
       </div>
   )
