@@ -1,10 +1,10 @@
 .menu {
-    display: flow-root;
+    display: flex;
 }
 
 .dropBar {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     margin: 2rem;
     padding-right: 2rem;
     background-color: rgb(0, 179, 196);
@@ -12,8 +12,8 @@
     border-radius: 5rem;
     border-color: cadetblue;
     position: fixed;
-    top: 0px;
-    right: 0px;
+    top: 5rem;
+    left: 0px;
     max-width: 50%;
     min-width: 0%;
     box-shadow: inset 0px 10px 20px #000000;
@@ -74,12 +74,14 @@
 
 @media screen and (max-width: 720px) {
     .dropBar {
-        background-color: transparent;
-        border-color: transparent;
+        background-color: none;
+        border-color: none;
     }
     .navItem {
-        background-color: transparent;
-        border: none;
+        opacity: 1;
+        border: 10px double;
+        border-color: #646cff;
+        color: #ffffff;
         box-shadow: none;
 
     }

@@ -12,7 +12,7 @@ const Resume = () => {
           <h4>Company Name</h4>
           <p>Job Description</p>
         </div>
-        <div class="job">
+        <div className="job">
           <h3>Job Title</h3>
           <h4>Company Name</h4>
           <p>Job Description</p>
@@ -23,7 +23,7 @@ const Resume = () => {
           <p>Job Description</p>
         </div>
         <h2>Education</h2>
-        <div class="school">
+        <div className="school">
           <h3>Degree</h3>
           <h4>School Name</h4>
           <p>Graduation Year</p>
