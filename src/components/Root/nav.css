@@ -25,7 +25,7 @@
 
 .navItem {
     padding: .5rem;
-    width: 10%;
+    width: 5%;
     position: relative;
     display: flex;
     flex-direction: row;
@@ -57,6 +57,7 @@
     border-color:#646cff;
     font-size: large;
     font-weight: bold;
+    
     color: aliceblue;
 }
 

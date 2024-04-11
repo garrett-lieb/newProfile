@@ -7,6 +7,12 @@ const Root = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     const toggleMenu = () => {
         setIsMenuOpen(!isMenuOpen);
+        // if you click away close the dropBar
+        document.addEventListener("click", (e) => {
+            if (e.target.className !== "menuButton") {
+                setIsMenuOpen(false);
+            }
+        });
     };
 
     return (

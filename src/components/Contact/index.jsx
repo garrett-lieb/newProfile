@@ -3,9 +3,9 @@ import './contact.css'
 
 const Contact = () => {
   return (
-<div class="contact">  
+<div className="contact">  
 <section className="contactContent">
-    <h1 class="headerItem">Contact</h1>
+    <h1 className="headerItem">Contact</h1>
     <p>
         <ul>
           <li>Email: <a href="mailto:liebg08@gmail.com">liebg08@gmail.com</a></li>
