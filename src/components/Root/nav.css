@@ -1,5 +1,6 @@
 .menu {
     display: flex;
+    padding: auto;
 }
 
 .dropBar {
@@ -49,7 +50,8 @@
     margin: 2rem;
     display: flex;
     flex-wrap: wrap;
-    position: relative;
+    position: fixed;
+    height: 7rem;
     width: 7rem;
     background-color: cadetblue;
     border: 10px solid;
@@ -57,7 +59,6 @@
     border-color:#646cff;
     font-size: large;
     font-weight: bold;
-    
     color: aliceblue;
 }
 
