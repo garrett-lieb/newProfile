@@ -39,6 +39,7 @@
 .headerItem {
     display: flex;
     justify-content: flex-end;
+    padding-left: 4%;
 }
 
 .textBody{
