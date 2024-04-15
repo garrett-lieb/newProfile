@@ -1,5 +1,7 @@
 import React from 'react'
-import jokebg from '../../assets/github-mark/githubMark.png'
+import jokebg from '../../assets/jokebg.png'
+import githubMark from '../../assets/githubMark.png'
+import linkedinMark from '../../assets/linkedinMark.png'
 import './about.css'
 
 const About = () => {
@@ -14,21 +16,23 @@ const About = () => {
             About me: I am a 31 yr old coding student in the 
             EdX Bootcamp via the University of Oregon.
           </p>
-        </div>
-      </section>
-      <section className="imageSection">
+          <section className="imageSection">
         <div className="imageContainer">
           <a className="imageItem" href="https://example.com">
-            <img src={githubMark} height="100" alt="" />
+            <img src={linkedinMark} height="100" alt="" />
           </a>
           <a className="imageItem" href="https://example.com">
-            <img src={jokebg} height="100" alt="" />
+            <img src={githubMark} height="100" alt="silhoutted github logo on a 'cadetblue (95, 168, 150)' background" />
           </a>
           <a className="imageItem" href="https://example.com">
             <img src={jokebg} height="100" alt="" />
           </a>
         </div>
       </section>
+        </div>
+        
+      </section>
+
     </div>
   )
 }

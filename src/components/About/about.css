@@ -60,7 +60,7 @@ img {
     justify-content: center;
     align-items: center;
     background-color: rgb(0, 179, 196);
-    border: 10px solid;
+    border: .5rem outset;
     border-radius: 5rem;
     border-color: cadetblue;
     box-shadow: 0px 0px 0px 5px rgb(47, 236, 253);
