@@ -6,8 +6,11 @@ const About = () => {
   return (
     <div className="about">
             <section className="aboutContent">
-            <h1 className="headerItem">About Me</h1>
-            <p className="textBody">
+            <div className="headerItem">
+            <h1>About Me</h1>
+            </div>
+            <div className="textBody">
+            <p>
                 testtesttesttesttesttesttesttesttesttesttesttesttesttesttesttest
                 testtesttesttesttesttesttesttesttesttesttesttesttesttesttesttest
                 testtesttesttesttesttesttesttesttesttesttesttesttesttesttesttest
@@ -18,6 +21,7 @@ const About = () => {
                 testtesttesttesttesttesttesttesttesttesttesttesttesttesttesttest
                 testtesttesttesttesttesttesttesttesttesttesttesttesttesttesttest
            </p>
+           </div>
         </section>
         <section className="imageSection">
             <div className="imageContainer">

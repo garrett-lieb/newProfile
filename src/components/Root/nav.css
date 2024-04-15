@@ -1,6 +1,31 @@
 .menu {
     display: flex;
+    justify-content: center;
     padding: auto;
+}
+
+.menuButton {
+    margin: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    margin-left: 0px;
+    height: 4rem;
+    width: 7rem;
+    background-color: cadetblue;
+    border: 10px solid;
+    border-radius: 0rem;
+    border-color:#646cff;
+    font-size: large;
+    font-weight: bold;
+    color: aliceblue;
+}
+
+.menuButton:hover {
+    opacity: 1;
+    border: 10px double;
+    border-color: #646cff;
+    color: #ffffff;
 }
 
 .dropBar {
@@ -27,7 +52,7 @@
 .navItem {
     padding: .5rem;
     width: 5%;
-    position: relative;
+    position: sticky;
     display: flex;
     flex-direction: row;
     background-image: linear-gradient(to right, rgb(0, 133, 145), rgb(0, 183, 200));
@@ -44,29 +69,6 @@
     border: 10px double;
     color: aliceblue;
     border-color: #646cff;
-}
-
-.menuButton {
-    margin: 2rem;
-    display: flex;
-    flex-wrap: wrap;
-    position: fixed;
-    height: 7rem;
-    width: 7rem;
-    background-color: cadetblue;
-    border: 10px solid;
-    border-radius: 5rem;
-    border-color:#646cff;
-    font-size: large;
-    font-weight: bold;
-    color: aliceblue;
-}
-
-.menuButton:hover {
-    opacity: 1;
-    border: 10px double;
-    border-color: #646cff;
-    color: #ffffff;
 }
 
 /* @media screen and (max-width: 840px) {
