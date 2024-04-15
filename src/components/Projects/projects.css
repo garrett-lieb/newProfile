@@ -7,6 +7,17 @@ p {
     box-shadow: 2px 12px 5px 1px rgba(0, 0, 184, 0.2);
 }
 
+.lists {
+    list-style-type: none;
+    margin: 1rem;
+    padding: 1rem;
+    border-style: double;
+    border-width: 0.5rem;
+    border-radius: 1rem;
+    border-color: cadetblue;
+    box-shadow: 2px 12px 5px 1px rgba(0, 0, 184, 0.2);
+}
+
 .projects {
     display: flex;
     justify-content: space-around;
@@ -47,4 +58,5 @@ p {
 .project5,
 .project6 {
     box-shadow: 1px 20px 10px 0px rgba(0, 0, 184, 0.2);
+    list-style: none;
 }

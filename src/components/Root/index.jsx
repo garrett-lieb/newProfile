@@ -31,6 +31,7 @@ const Root = () => {
             </button>
   
             {isMenuOpen && (
+                <div class="navBar">
                 <ul className="dropBar">
                     <li>
                         <Link className="navItem" to="/">
@@ -53,6 +54,7 @@ const Root = () => {
                         </Link>
                     </li>
                 </ul>
+                </div>
             )}
   
             <Outlet />

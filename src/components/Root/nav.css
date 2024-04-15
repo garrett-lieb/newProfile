@@ -5,11 +5,11 @@
 }
 
 .menuButton {
-    margin: 2rem;
     display: flex;
-    flex-wrap: wrap;
     position: relative;
-    margin-left: 0px;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-left: 1rem;
     height: 4rem;
     width: 7rem;
     background-color: cadetblue;
@@ -24,15 +24,11 @@
 .menuButton:hover {
     opacity: 1;
     border: 10px double;
-    border-color: #646cff;
+    border-color: #ff5f5f;
     color: #ffffff;
 }
 
 .dropBar {
-    display: flex;
-    flex-direction: column;
-    margin: 2rem;
-    padding-right: 2rem;
     background-color: rgb(0, 179, 196);
     border: 10px solid;
     border-radius: 5rem;
@@ -42,7 +38,7 @@
     left: 0px;
     max-width: 50%;
     min-width: 0%;
-    box-shadow: inset 0px 10px 20px #000000;
+    box-shadow: 15px 5px 15px 15px rgb(47, 236, 253);
     font-size: large;
     font-weight: bold;
     color: rgb(255, 255, 255);
@@ -52,7 +48,6 @@
 .navItem {
     padding: .5rem;
     width: 5%;
-    position: sticky;
     display: flex;
     flex-direction: row;
     background-image: linear-gradient(to right, rgb(0, 133, 145), rgb(0, 183, 200));
