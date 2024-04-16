@@ -1,8 +1,9 @@
 import React from 'react'
-import jokebg from '../../assets/jokebg.png'
+import './about.css'
 import githubMark from '../../assets/githubMark.png'
 import linkdinMark from '../../assets/linkdinMark.png'
-import './about.css'
+import jokebg from '../../assets/Tba.png'
+
 
 const About = () => {
   return (
@@ -18,14 +19,17 @@ const About = () => {
           </p>
           <section className="imageSection">
         <div className="imageContainer">
-          <a className="imageItem" href="https://example.com">
-            <img src={linkdinMark} height="100" alt="" />
+          <a className="imageItem" href="">
+            <img src={linkdinMark} height="100" 
+            alt="an 'in' white  LinkdIn logo on a 'cadetblue (95, 168, 150)' background" />
           </a>
-          <a className="imageItem" href="https://example.com">
-            <img src={githubMark} height="100" alt="silhoutted github logo on a 'cadetblue (95, 168, 150)' background" />
+          <a className="imageItem" href="">
+            <img src={githubMark} height="100" 
+            alt="black github cat logo on a 'cadetblue (95, 168, 150)' background" />
           </a>
-          <a className="imageItem" href="https://example.com">
-            <img src={jokebg} height="100" alt="" />
+          <a className="imageItem" href="">
+            <img src={jokebg} height="100" 
+            alt="" />
           </a>
         </div>
       </section>
