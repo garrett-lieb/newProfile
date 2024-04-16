@@ -1,7 +1,10 @@
 .footer {
-    display: flex;
+    margin: 1rem;
     padding: 1rem;
-    font-size: large;
-    color: rgb(252, 252, 252);
-    text-align: center; 
+    border: 2.5px inset;
+    border-radius: 5rem;
+    border-color: cadetblue;
+    background-image: 
+    linear-gradient( rgb(0, 179, 196), rgb(66, 115, 143), rgb(0, 179, 196));
+    width: 12%;
 }

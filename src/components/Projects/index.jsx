@@ -7,9 +7,9 @@ const Projects = () => {
             <section className="projectsContent">
                 <h1 class="header">Projects</h1>
                 <section class="grid-container">
+                <div className="nest">
                     <h2 class="project1">GroupProject3</h2>
                     <img src="" alt="" />
-                    <div>
                         <ul className="lists">
                             <li>Under Construction</li>
                             <li>
@@ -17,9 +17,9 @@ const Projects = () => {
                             </li>
                         </ul>
                     </div>
+                    <div className="nest">
                     <h2 class="project2">Text-Editor</h2>
                     <img src="" alt="" />
-                    <div>
                         <ul className="lists">
                             <li>Text editor and note taker with offline funtionality</li>
                             <li>
@@ -30,10 +30,9 @@ const Projects = () => {
                             </li>
                         </ul>
                     </div>
-
+                    <div className="nest">
                     <h2 class="project3">SocialNetworkAPI</h2>
                     <img src="" alt="" />
-                    <div>
                         <ul className="lists">
                             <li>API for a social network web application.</li>
                             <li>
@@ -44,9 +43,9 @@ const Projects = () => {
                             </li>
                         </ul>
                     </div>
+                    <div className="nest">
                     <h2 class="project4">Gist - Matching an Email</h2>
                     <img src="" alt="" />
-                    <div>
                         <ul className="lists">
                             <li>Matching an email with a gist</li>
                             <li>

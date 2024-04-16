@@ -63,5 +63,3 @@ const Root = () => {
   };
 
 export default Root
-
-// box-shadow: inset 0px 10px 20px #000000;
