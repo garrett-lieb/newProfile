@@ -30,10 +30,9 @@
     padding-left: 4%;
     max-width: 10rem;
     min-width: 5rem;
-
 }
 
-.textBody{
+.textBody {
     display: flex;
     flex-direction: column;
     max-width: 30rem;
@@ -84,4 +83,23 @@ img {
     color: aliceblue;
 }
 
-
+/* Media Queries */
+@media screen and (max-width: 768px) {
+    .aboutContent {
+        margin: 2rem;
+    }
+    
+    .textBody {
+        max-width: 20rem;
+        min-width: 10rem;
+    }
+    
+    .imageContainer {
+        max-width: 20rem;
+        min-width: 10rem;
+    }
+    
+    .imageSection {
+        margin: 1rem;
+    }
+}
