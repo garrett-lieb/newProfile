@@ -17,7 +17,7 @@ const Projects = () => {
                     </li>
                 </ul>
             </p>
-            <h2 class="project4">Text-Editor</h2>
+            <h2 class="project2">Text-Editor</h2>
             <img src="" alt="" />
             <p>
                 <ul className="lists">
@@ -30,10 +30,12 @@ const Projects = () => {
                     </li>
                 </ul>
             </p>
-            <h2 class="project2">SocialNetworkAPI</h2>
+            
+            <h2 class="project3">SocialNetworkAPI</h2>
             <img src="" alt="" />
             <ul className="lists">
                 <p>
+                <li>API for a social network web application.</li>
                 <li>
                 <a href="https://drive.google.com/file/d/1hHd73GA2ICdFFYykp_bduUgb-seHT5mb/view">Link to Video</a>
                 </li>
@@ -42,7 +44,7 @@ const Projects = () => {
                 </li>
                 </p>
             </ul>
-            <h2 class="project3">Gist - Matching an Email</h2>
+            <h2 class="project4">Gist - Matching an Email</h2>
             <img src="" alt="" />
             <p>
                 <ul className="lists">

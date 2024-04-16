@@ -9,16 +9,6 @@ const Contact = () => {
     <p>
         <ul>
           <li>Email: <a href="mailto:liebg08@gmail.com">liebg08@gmail.com</a></li>
-          <li>LinkedIn: 
-            <a href="https://www.linkedin.com/in/https://www.linkedin.com/in/garrett-lieb-2a38682a2/">
-              Garrett Lieb</a></li>
-          <li>GitHub:
-            <a href="">
-            </a></li>
-            <li>
-              Instagram:
-              <a href="https://www.instagram.com"></a>
-            </li>
         </ul>
     </p>
 </section>
