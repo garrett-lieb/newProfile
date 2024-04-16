@@ -25,13 +25,13 @@ const Root = () => {
     
 
     return (
-        <div class="menu">
+        <div className="menu">
             <button className="menuButton" onClick={toggleMenu}>
                 Menu
             </button>
   
             {isMenuOpen && (
-                <div class="navBar">
+                <div className="navBar">
                 <ul className="dropBar">
                     <li>
                         <Link className="navItem" to="/">

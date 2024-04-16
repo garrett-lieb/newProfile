@@ -3,12 +3,12 @@ import './projects.css'
 
 const Projects = () => {
     return (
-        <div class="projects">
+        <div className="projects">
             <section className="projectsContent">
-                <h1 class="header">Projects</h1>
-                <section class="grid-container">
+                <h1 className="header">Projects</h1>
+                <section className="grid-container">
                 <div className="nest">
-                    <h2 class="project1">GroupProject3</h2>
+                    <h2 className="project1">GroupProject3</h2>
                     <img src="" alt="" />
                         <ul className="lists">
                             <li>Under Construction</li>
@@ -18,7 +18,7 @@ const Projects = () => {
                         </ul>
                     </div>
                     <div className="nest">
-                    <h2 class="project2">Text-Editor</h2>
+                    <h2 className="project2">Text-Editor</h2>
                     <img src="" alt="" />
                         <ul className="lists">
                             <li>Text editor and note taker with offline funtionality</li>
@@ -31,7 +31,7 @@ const Projects = () => {
                         </ul>
                     </div>
                     <div className="nest">
-                    <h2 class="project3">SocialNetworkAPI</h2>
+                    <h2 className="project3">SocialNetworkAPI</h2>
                     <img src="" alt="" />
                         <ul className="lists">
                             <li>API for a social network web application.</li>
@@ -44,7 +44,7 @@ const Projects = () => {
                         </ul>
                     </div>
                     <div className="nest">
-                    <h2 class="project4">Gist - Matching an Email</h2>
+                    <h2 className="project4">Gist - Matching an Email</h2>
                     <img src="" alt="" />
                         <ul className="lists">
                             <li>Matching an email with a gist</li>
