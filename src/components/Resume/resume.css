@@ -16,12 +16,17 @@ h3 {
     box-shadow: 15px 5px 15px 5px rgb(47, 236, 253);
 }
 
-
 .resume {
+    padding: .5rem;
     display: flex;
-    justify-content: space-around;
-    box-shadow: 20px 10px 15px 55px rgb(47, 236, 253);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 10px 15px 55px rgb(47, 236, 253);
     border-radius: 5rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
 }
 
 .resumeContent {
@@ -38,6 +43,7 @@ h3 {
 
 .job,
 .school {
+    grid-template-columns: 2, 1fr;
     padding: 2rem;
     margin: 1rem;
     border-radius: 1rem;
@@ -53,4 +59,16 @@ h3 {
 .school {
     border: 10px double;
     border-radius: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+    h1,
+    h3,
+    .resume,
+    .resumeContent,
+    .job,
+    .school {
+        justify-content: center;
+        text-align: center;
+    }
 }
