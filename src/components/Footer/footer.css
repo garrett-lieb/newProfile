@@ -1,4 +1,8 @@
 .footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
     margin: 1rem;
     padding: 1rem;
     border: 2.5px inset;
@@ -6,5 +10,4 @@
     border-color: cadetblue;
     background-image: 
     linear-gradient( rgb(0, 179, 196), rgb(66, 115, 143), rgb(0, 179, 196));
-    width: 12%;
 }
