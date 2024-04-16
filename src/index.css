@@ -127,7 +127,7 @@ button:focus-visible {
 
 @media screen and (max-width: 320px) {
   body {
-    display: table-column;
+    display: column;
   }
   h3 {
     text-align: center;

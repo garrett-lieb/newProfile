@@ -1,9 +1,10 @@
-.menuButton {
+/* .menuButton {
     display: flex;
-    position: relative;
-    justify-content: middle;
-    align-items: center;
-    margin: 2rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    height: 50%;
     background-image: 
     linear-gradient( rgb(0, 179, 196), rgb(66, 115, 143), rgb(0, 179, 196));
     border: 10px double;
@@ -11,9 +12,11 @@
     border-color: #646cff;
     font-size: large;
     font-weight: bold;
-}
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+} */
 
-.menuButton:hover {
+/* .menuButton:hover {
     opacity: 5;
     border: 15px double;
     border-color: aliceblue;
@@ -23,17 +26,14 @@
     box-shadow: 4px 0px 1.5rem black;
     transition: transform 0.5s ease-in-out;
     transform: translateX(.5rem);
-}
+} */
 
 .dropBar {
     display: flex;
-    position: absolute;
-    top: 0;
-    right: 25%;
+    align-items: center;
     margin: 1rem;
     padding: 1rem;
     justify-content: space-around;
-    width: 50%;
     background-image: 
     linear-gradient( rgb(0, 179, 196), rgb(66, 115, 143), rgb(0, 179, 196));
     border: 10px double;
@@ -51,6 +51,7 @@
     border: 10px double;
     border-radius: 5rem;
     border-color: #646cff;
+    box-shadow: 4px 0px 1.5rem rgb(255, 255, 255);
     font-size: large;
     font-weight: bold;
     font-size: large;
@@ -62,26 +63,31 @@
 .navItem:hover {
     border: 10px double;
     color: aliceblue;
+    box-shadow: 4px 0px 2.5rem rgb(255, 255, 255);
     transition: transform 0.5s ease-in-out;
     transform: translateX(.5rem);
 }
 
-/* @media screen and (max-width: 840px) {
-    .navItem {
-    }
-} */
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 900px) {
+    /* .menuButton {
+        display: block;
+    } */
+
     .dropBar {
-        background-color: none;
-        border-color: none;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
     }
 
     .navItem {
-        opacity: 1;
-        border: 10px double;
-        border-color: #646cff;
-        color: #ffffff;
-        box-shadow: none;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-inline: 2.5rem;
+        padding: 0.5rem;
     }
 }
+
