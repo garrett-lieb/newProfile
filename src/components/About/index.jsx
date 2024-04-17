@@ -2,7 +2,7 @@ import React from 'react'
 import './about.css'
 import githubMark from '../../assets/githubMark.png'
 import linkdinMark from '../../assets/linkdinMark.png'
-import jokebg from '../../assets/Tba.png'
+import tba from '../../assets/Tba.png'
 
 
 const About = () => {
@@ -19,16 +19,16 @@ const About = () => {
           </p>
           <section className="imageSection">
         <div className="imageContainer">
-          <a className="imageItem" href="">
+          <a className="imageItem" href="https://www.linkedin.com/in/garrett-lieb-2a38682a2/">
             <img src={linkdinMark} height="100" 
             alt="an 'in' white  LinkdIn logo on a 'cadetblue (95, 168, 150)' background" />
           </a>
-          <a className="imageItem" href="">
+          <a className="imageItem" href="https://github.com/garrett-lieb">
             <img src={githubMark} height="100" 
             alt="black github cat logo on a 'cadetblue (95, 168, 150)' background" />
           </a>
           <a className="imageItem" href="">
-            <img src={jokebg} height="100" 
+            <img src={tba} height="100" 
             alt="" />
           </a>
         </div>
