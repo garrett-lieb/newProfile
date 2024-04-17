@@ -18,11 +18,10 @@ a {
 }
 
 body {
-  margin: 0;
-  padding: .5rem;
   box-sizing: border-box;
   align-items: center;
   justify-content: center;
+  
 }
 
 p {
@@ -101,18 +100,31 @@ button:focus-visible {
 
 
 /* Mobile devices */
-@media only screen and (max-width: 600px) {
-  /* Add your mobile-specific styles here */
+@media screen and (max-width: 320px) {
+    body {
+        margin: 1rem; /* Updated */
+    }
 }
 
+@media only screen and (min-width: 321px) and (max-width: 600px) {
+    body {
+        margin: 2rem; /* Updated */
+    }
+}
 /* Tablets and small desktops */
 @media only screen and (min-width: 601px) and (max-width: 1024px) {
-  /* Add your tablet-specific styles here */
+  body {
+    width: 100vw;
+    height: 100vh;
+  }
 }
 
 /* Large desktops and beyond */
 @media only screen and (min-width: 1025px) {
-  /* Add your desktop-specific styles here */
+  body {
+    width: 100vw;
+    height: 100vh;
+  }
 }
 
 
