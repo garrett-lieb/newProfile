@@ -5,8 +5,9 @@ const Projects = () => {
     return (
         <div className="projects">
             <section className="projectsContent">
+            <section className="grid-container">
                 <h1 className="header">Projects</h1>
-                <section className="grid-container">
+
                 <div className="nest">
                     <h2 className="project1">GroupProject3</h2>
                     <img src="" alt="" />
