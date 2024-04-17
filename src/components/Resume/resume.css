@@ -12,21 +12,6 @@ h3 {
     box-shadow: 15px 5px 15px 5px rgb(47, 236, 253);
 }
 
-
-.resume {
-    display: flex;
-    justify-content: space-around;
-    box-shadow: 20px 10px 15px 55px rgb(47, 236, 253);
-    border-radius: 5rem;
-}
-
-.grid-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(4, 1fr);
-    gap: 2rem;
-}
-
 .resumeContent {
     padding: 2rem;
     margin: 5rem;
