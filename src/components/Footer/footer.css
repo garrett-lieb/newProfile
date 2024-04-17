@@ -12,7 +12,7 @@
     linear-gradient( rgb(0, 179, 196), rgb(66, 115, 143), rgb(0, 179, 196));
 }
 
-@media screen and (max-width: 810px) {
+@media screen and (max-width: 81rem) {
     .footer {
         opacity: 5;
       background-color: antiquewhite;

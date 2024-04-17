@@ -7,7 +7,7 @@
     height: 50%;
     background-image: 
     linear-gradient( rgb(0, 179, 196), rgb(66, 115, 143), rgb(0, 179, 196));
-    border: 10px double;
+    border: 1rem double;
     border-radius: 5rem;
     border-color: #646cff;
     font-size: large;
@@ -44,7 +44,7 @@
     padding: 1rem;
     background-image: 
     linear-gradient( rgb(0, 179, 196), rgb(66, 115, 143), rgb(0, 179, 196));
-    border: 10px double;
+    border: 1rem double;
     border-radius: 5rem;
     border-color: aliceblue;
     font-weight: bold;
@@ -55,7 +55,7 @@
 /* .dropBar:hover {
     visibility: visible;
     display: flex;
-    border: 10px double;
+    border: 1rem double;
     border-radius: 5rem;
     color: aliceblue;
     box-shadow: 4px 0px 2.5rem
@@ -71,7 +71,7 @@
     padding-inline: 1.5rem;
     background-image: 
     linear-gradient( rgb(0, 179, 196), rgb(66, 115, 143), rgb(0, 179, 196));
-    border: 10px double;
+    border: 1rem double;
     border-radius: 5rem;
     border-color: #646cff;
     box-shadow: 4px 0px 1.5rem rgb(255, 255, 255);
@@ -84,7 +84,7 @@
 }
 
 .navItem:hover {
-    border: 10px double;
+    border: 1rem double;
     border-radius: 5rem;
     color: aliceblue;
     box-shadow: 4px 0px 2.5rem rgb(255, 255, 255);
@@ -112,7 +112,7 @@
         margin: 0;
     }
     .navItem:active {
-        border: 10px double;
+        border: 1rem double;
         border-radius: 5rem;
         color: aliceblue;
         box-shadow: 4px 0px 2.5rem rgb(255, 255, 255);

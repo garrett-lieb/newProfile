@@ -5,7 +5,7 @@
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background: linear-gradient(90deg, #14004f, rgb(1, 89, 157), rgb(1, 52, 92));
-  /* background: url('./src/assets/11.png'); */
+  /* background: url('/src/assets/11.png'); */
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -39,7 +39,7 @@ h1 {
   font-size: 3em;
   background-image:
   linear-gradient(to right, rgb(0, 133, 145), rgb(0, 183, 200), rgb(0, 179, 176));
-  border: 10px solid;
+  border: 1rem solid;
   border-radius: 5rem;
   border-color: cadetblue;
   box-shadow: 25px 0px 15px 5px rgb(47, 236, 253);
