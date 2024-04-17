@@ -6,6 +6,7 @@ const Resume = () => {
     <div className="resume">
       <section className="resumeContent">
       <h1>Resume</h1>
+      <div className= "grid-container">
       <div className="Jobs">
        <h2>Experience</h2>
         <div className="job">
@@ -40,6 +41,7 @@ const Resume = () => {
           <h3>Spanish</h3>
           <h4>Seattle University</h4>
           <p>2015</p>
+        </div>
         </div>
         </div>
       </section>

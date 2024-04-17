@@ -5,7 +5,7 @@
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   /* background: linear-gradient(90deg, rgb(141, 0, 196), rgb(206, 44, 255), rgb(116, 7, 133)); */
-  background: url('src/assets/11.png');
+  background: url('./src/assets/11.png');
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -103,13 +103,13 @@ button:focus-visible {
 /* Mobile devices */
 @media screen and (max-width: 320px) {
     body {
-        margin: 1rem; /* Updated */
+        margin: 1rem; 
     }
 }
 
 @media only screen and (min-width: 321px) and (max-width: 600px) {
     body {
-        margin: 2rem; /* Updated */
+        margin: 2rem; 
     }
 }
 /* Tablets and small desktops */
