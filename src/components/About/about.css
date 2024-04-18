@@ -97,8 +97,11 @@ img {
 }
 
 @media screen and (max-width: 768px) {
+    .about {
+        padding: 1rem;
+    }
     .aboutContent {
-        margin: .25rem;
+        margin: 3rem;
     }
 
     .textBody {

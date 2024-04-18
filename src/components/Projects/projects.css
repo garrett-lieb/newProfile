@@ -11,8 +11,8 @@ a:hover {
     flex-direction: column;
     align-items: center;
     justify-content: middle;
-    box-shadow: 0px 1rem 15px 55px rgb(47, 236, 253);
     border-radius: 5rem;
+    box-shadow: 0px 1rem 15px 55px rgb(47, 236, 253);
 }
 
 .projectsContent {
@@ -49,8 +49,8 @@ a:hover {
     border-radius: 5rem;
     border-color: cadetblue;
     background-color: rgb(0, 179, 196);
-    background-image: 
-    linear-gradient( rgb(0, 179, 196), rgb(66, 115, 143), rgb(0, 179, 196));
+    background-image:
+        linear-gradient(rgb(0, 179, 196), rgb(66, 115, 143), rgb(0, 179, 196));
 }
 
 .lists {
@@ -61,8 +61,8 @@ a:hover {
     border-width: 0.5rem;
     border-radius: 1rem;
     border-color: cadetblue;
-    background-image: 
-    linear-gradient( rgb(0, 179, 196), rgb(66, 115, 143));
+    background-image:
+        linear-gradient(rgb(0, 179, 196), rgb(66, 115, 143));
     box-shadow: 2px 12px 5px 1px rgba(0, 0, 184, 0.2);
     color: rgb(255, 255, 255);
     text-decoration: double;
@@ -72,8 +72,7 @@ a:hover {
 .project1,
 .project2,
 .project3,
-.project4
-{
+.project4 {
     box-shadow: 1px 20px 1rem 0px rgba(0, 0, 184, 0.2);
     list-style: none;
 }
@@ -85,52 +84,75 @@ a:hover {
         grid-template-rows: repeat(5, 1fr);
         gap: 2rem;
     }
-}
-
-@media only screen and (max-width: 800px) {
-    
-    .projects {
-        box-shadow: transparent;
-        padding: 1rem;
-    }
 
     .header {
         display: flex;
         justify-content: center;
-        padding: 2rem;
-        margin-left: 0;
-        padding: 0;
+        padding: 5rem;
+        margin: 5rem;
         box-shadow:
-        0 0 0 2px #ffffff,
-        0.3em 0.3em 1em #06013c;
+        inset 5rem 4rem 12rem 0 #00ffea95,
+        inset 5rem 5rem 12rem 0 #01958895,
+        inset 5rem 6rem 12rem 0 #00353195,
+            0 0 0 2px #ffffff,
+            .3em 2.25em 2em #06013c;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .projects {
+        margin: 0;
+        padding: 2rem;
+        box-shadow: transparent;
+        text-align: center;
+    }
+
+    .projectsContent {
+        margin: 1.5rem;
+        padding: 0;
+    }
+
+    .header {
+        padding: 0;
+    }
+
+    .nest {
+        padding: 0;
+        margin: 0;
+        border-radius: 3rem;
     }
 }
 
 
 @media only screen and (max-width: 600px) {
     .projects {
-        padding: 3rem;
+        padding: 1.5rem;
     }
+
     .projectsContent {
         border-width: 0.5rem;
         border-radius: 3rem;
     }
+
     .header {
         justify-content: center;
         margin-left: 0;
         padding: 1rem;
     }
+
     .nest {
-        padding: 1.5rem;
-        margin: 1.5rem;
+        padding: 0;
+        margin: 0;
         border-radius: 3rem;
     }
+
     .lists {
         margin: 0.5rem;
         padding: 0.5rem;
         border-width: 0.3rem;
         border-radius: 0.5rem;
     }
+
     .project1,
     .project2,
     .project3,
@@ -139,34 +161,51 @@ a:hover {
     }
 }
 
+@media only screen and (max-width: 390) {
+    .header {
+        box-shadow:
+            0 0 0 2px #ffffff,
+            0.3em 0.3em 1em #06013c;
+    }
+
+    .nest {
+        text-align: center;
+    }
+}
+
 @media only screen and (max-width: 320px) {
     .projects {
         padding-top: 1rem;
     }
+
     .projectsContent {
         border-width: 0.5rem;
         border-radius: 3rem;
     }
+
     .header {
         justify-content: center;
         margin-left: 0;
-        padding: 0rem;
+        padding: 0;
     }
+
     .nest {
         display: flex;
         flex-direction: column;
-        padding: 0rem;
-        margin: 0rem;
+        padding: 0;
+        margin: 0;
         border-radius: 3rem;
     }
+
     .lists {
         display: flex;
         flex-direction: column;
         margin-left: 5rem;
-        padding: 0rem;
+        padding: 0;
         border-width: 0.3rem;
         border-radius: 0.5rem;
     }
+
     .project1,
     .project2,
     .project3,
@@ -175,4 +214,3 @@ a:hover {
         box-shadow: none;
     }
 }
-
