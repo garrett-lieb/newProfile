@@ -6,14 +6,23 @@
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
 
+
+
 /* midnight gradient */
-  background: linear-gradient(90deg, #14004f, rgb(1, 89, 157), rgb(1, 52, 92));
+  /* background: linear-gradient(90deg, #14004f, rgb(1, 89, 157), rgb(1, 52, 92)); */
 
 /* default -dark */
   /* background-color: #2b77fb51; */
 
 /* default-light */
   /* background-color: #c8fefb; */
+
+background:
+  linear-gradient(-5deg, #1d00af 60%, teal 40%);
+background-size: .5rem .5rem;
+
+
+
   
 
   font-synthesis: none;
@@ -177,8 +186,16 @@ button:focus-visible {
   /*dusk gradient */
   /* background: linear-gradient(180deg, #0281c1, #025bc17b, #003e90, #0c0220); */
 
-
   /* devtools stripes */
   /* background: url('/src/assets/11.png'); */
+
+  /* 45-degree stripes */
+
+/* black (#000000) */
+/* background: linear-gradient(45deg, #000000 25%, transparent 25%),
+      linear-gradient(-45deg, #000000 25%, transparent 25%),
+      linear-gradient(45deg, transparent 75%, #000000 75%),
+      linear-gradient(-45deg, transparent 75%, #000000 75%);
+background-size: 10px 10px; */
 
 
