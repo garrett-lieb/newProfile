@@ -98,7 +98,7 @@ img {
 
 @media screen and (max-width: 768px) {
     .aboutContent {
-        margin: 2rem;
+        margin: .25rem;
     }
 
     .textBody {

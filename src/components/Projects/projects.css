@@ -31,9 +31,8 @@ a:hover {
     justify-content: flex-end;
     margin-left: 1.5rem;
     padding: 2rem;
-    box-shadow:
-    0 0 0 2px white,
-    0.3em 0.3em 1em #06013c;
+    box-shadow: 0px 1.7rem 1.5rem .5rem rgb(47, 236, 253);
+
 }
 
 .grid-container {
@@ -79,13 +78,17 @@ a:hover {
     list-style: none;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1330px) {
     .grid-container {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(5, 1fr);
         gap: 2rem;
     }
+}
+
+@media only screen and (max-width: 800px) {
+    
     .projects {
         box-shadow: transparent;
         padding: 1rem;
@@ -95,9 +98,11 @@ a:hover {
         display: flex;
         justify-content: center;
         padding: 2rem;
-        height: 4rem;
         margin-left: 0;
         padding: 0;
+        box-shadow:
+        0 0 0 2px #ffffff,
+        0.3em 0.3em 1em #06013c;
     }
 }
 
@@ -136,7 +141,7 @@ a:hover {
 
 @media only screen and (max-width: 320px) {
     .projects {
-        padding-left: 5rem;
+        padding-top: 1rem;
     }
     .projectsContent {
         border-width: 0.5rem;
@@ -145,16 +150,20 @@ a:hover {
     .header {
         justify-content: center;
         margin-left: 0;
-        padding: 1rem;
+        padding: 0rem;
     }
     .nest {
+        display: flex;
+        flex-direction: column;
         padding: 0rem;
         margin: 0rem;
         border-radius: 3rem;
     }
     .lists {
-        margin: 0.5rem;
-        padding: 0.5rem;
+        display: flex;
+        flex-direction: column;
+        margin-left: 5rem;
+        padding: 0rem;
         border-width: 0.3rem;
         border-radius: 0.5rem;
     }
@@ -162,6 +171,7 @@ a:hover {
     .project2,
     .project3,
     .project4 {
+        font-size: 2rem;
         box-shadow: none;
     }
 }
