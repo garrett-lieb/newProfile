@@ -1,39 +1,21 @@
 :root {
+  height: 100vh;
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #2b77fb51;
-  height: 100vh;
-  /* TIME OF DAY GRADIENTS test*/
 
-  /* sunrise gradient */
-  /* background: linear-gradient(0deg, #f2e200, #c17e02, #c17e027b,#358dff); */
+/* midnight gradient */
+  background: linear-gradient(90deg, #14004f, rgb(1, 89, 157), rgb(1, 52, 92));
 
-  /* morning gradient */
-  /* background: linear-gradient(0deg, #f6ddb9, #f5ec72, #09b8f8); */
+/* default -dark */
+  /* background-color: #2b77fb51; */
 
-  /* midmorning gradient*/
-  /* background: linear-gradient(0deg,  #f5ec72, #09b8f8, #f6ddb9); */
-
-  /* afternoon gradient */
-  /* background: linear-gradient(0deg, #09b8f8, #f6ddb9, #f5ec72); */
-
-  /* evening gradient */
-  /* background: linear-gradient(0deg, #f5ec72, #f6ddb9, #09b8f8); */
-
-  /* sunset gradient */
-  /* background: linear-gradient(0deg, #f29100, #c17e02, #c17e027b,#003e90); */
-
-  /*dusk gradient */
-  /* background: linear-gradient(180deg, #0281c1, #025bc17b, #003e90, #0c0220); */
-
-  /* midnight gradient */
-  /* background: linear-gradient(90deg, #14004f, rgb(1, 89, 157), rgb(1, 52, 92)); */
+/* default-light */
+  /* background-color: #c8fefb; */
   
-  /* devtools stripes */
-  /* background: url('/src/assets/11.png'); */
+
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -42,7 +24,7 @@
 
 a {
   font-weight: 500;
-  color: rgb(168, 4, 4);
+  color: rgb(25, 50, 238);
   text-decoration: inherit;
 }
 
@@ -50,7 +32,6 @@ body {
   box-sizing: border-box;
   align-items: center;
   justify-content: center;
-  
 }
 
 p {
@@ -68,14 +49,10 @@ ul {
   border-radius: 5rem;
   border-color: aliceblue;
   background-color: cadetblue;
-  
 }
 
 h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-  padding-left: 1rem;
-  font-size: 3em;
+  padding: 1rem;
   background-image:
   linear-gradient(to right, rgb(0, 133, 145), rgb(0, 183, 200), rgb(0, 179, 176));
   border: 1rem solid;
@@ -83,21 +60,23 @@ h1 {
   border-color: cadetblue;
   box-shadow: 25px 0px 15px 5px rgb(47, 236, 253);
   color: rgb(255, 255, 255);
+  line-height: 1.1;
+  font-size: 3em;
   text-shadow: 4px 4px 4px black;
 }
 
 h2 {
-  padding-left: 1.5rem;
-  font-size: 2.5rem;
+  padding: 1.5rem;
   background-image: linear-gradient( rgb(0, 179, 196), rgb(66, 115, 143));
   border-style: double;
   border-width: 0.5rem;
   border-radius: 1rem;
   border-color: aliceblue;
+  font-size: 2.5rem;
 }
 
 h3 {
-  padding-left: .5rem;
+  padding: .5rem;
   background-image:
   linear-gradient(to right, rgb(0, 133, 145), rgb(0, 183, 200), rgb(0, 179, 176));
   border: 1rem solid;
@@ -108,21 +87,21 @@ h3 {
 }
 
 h4 {
-  padding-left: .25rem;
-  font-size: 1.5rem;
-  line-height: 1.1;
+  padding: .25rem;
   border: .5rem double;
   border-radius: 1rem;
   border-color: #646cff;
   background-color: aliceblue;
   color: black;
+  font-size: 1.5rem;
+  line-height: 1.1;
 }
 
 p {
+  background-color: aliceblue;
+  color: black;
   font-size: 1.2rem;
   line-height: 1.1;
-  color: black;
-  background-color: aliceblue;
 }
 
 /* button {
@@ -172,5 +151,34 @@ button:focus-visible {
     height: 100vh;
   }
 }
+
+
+
+/* TIME OF DAY GRADIENTS test*/
+
+  /* sunrise gradient */
+  /* background: linear-gradient(0deg, #f2e200, #c17e02, #c17e027b,#358dff); */
+
+  /* morning gradient */
+  /* background: linear-gradient(0deg, #f6ddb9, #f5ec72, #09b8f8); */
+
+  /* midmorning gradient*/
+  /* background: linear-gradient(0deg,  #f5ec72, #09b8f8, #f6ddb9); */
+
+  /* afternoon gradient */
+  /* background: linear-gradient(0deg, #09b8f8, #f6ddb9, #f5ec72); */
+
+  /* evening gradient */
+  /* background: linear-gradient(0deg, #f5ec72, #f6ddb9, #09b8f8); */
+
+  /* sunset gradient */
+  /* background: linear-gradient(0deg, #f29100, #c17e02, #c17e027b,#003e90); */
+
+  /*dusk gradient */
+  /* background: linear-gradient(180deg, #0281c1, #025bc17b, #003e90, #0c0220); */
+
+
+  /* devtools stripes */
+  /* background: url('/src/assets/11.png'); */
 
 

@@ -1,42 +1,3 @@
-/* .menuButton {
-    display: flex;
-    position: fixed;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    height: 50%;
-    background-image: 
-    linear-gradient( rgb(0, 179, 196), rgb(66, 115, 143), rgb(0, 179, 196));
-    border: 1rem double;
-    border-radius: 5rem;
-    border-color: #646cff;
-    font-size: large;
-    font-weight: bold;
-    writing-mode: vertical-rl;
-    text-orientation: upright;
-} */
-
-/* .menuButton:hover {
-    opacity: 5;
-    border: 15px double;
-    border-color: aliceblue;
-    color: #ffffff;
-    text-emphasis: bold;
-    text-shadow: 4px 4px 4px black;
-    box-shadow: 4px 0px 1.5rem black;
-    transition: transform 0.5s ease-in-out;
-    transform: translateX(.5rem);
-} */
-
-
-/* span {
-
-} */
-
-/* .navItem:hover span {
-    visibility:
-} */
-
 .dropBar {
     display: flex;
     align-items: center;
@@ -52,16 +13,7 @@
     box-shadow: 4px 0px 1.5rem black;
 }
 
-/* .dropBar:hover {
-    visibility: visible;
-    display: flex;
-    border: 1rem double;
-    border-radius: 5rem;
-    color: aliceblue;
-    box-shadow: 4px 0px 2.5rem
-    rgb(255, 255, 255); 
-    transition: transform 0.5s ease-in-out; transform: translateX(.5rem); 
-} */
+
 
 .navItem {
     display: flex;
@@ -93,7 +45,21 @@
 }
 
 
+
+@media only screen and (min-width: 1025px) {
+    body {
+        width: 100vw;
+        height: 100vh;
+      }
+  }
+
 @media only screen and (min-width: 601px) and (max-width: 1024px) {
+    body {
+        width: 100vw;
+        height: 100vh;
+      }
+
+
     .dropBar {
         display: flex;
         flex-direction: row;
@@ -173,22 +139,54 @@
 }
 
 
-  
-  /* Tablets and small desktops */
-  @media only screen and (min-width: 601px) and (max-width: 1024px) {
-    body {
-      width: 100vw;
-      height: 100vh;
-    }
-  }
-  
-  /* Large desktops and beyond */
-  @media only screen and (min-width: 1025px) {
-    body {
-      width: 100vw;
-      height: 100vh;
-    }
-  }
+  /* .menuButton {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    height: 50%;
+    background-image: 
+    linear-gradient( rgb(0, 179, 196), rgb(66, 115, 143), rgb(0, 179, 196));
+    border: 1rem double;
+    border-radius: 5rem;
+    border-color: #646cff;
+    font-size: large;
+    font-weight: bold;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+} */
+
+/* .menuButton:hover {
+    opacity: 5;
+    border: 15px double;
+    border-color: aliceblue;
+    color: #ffffff;
+    text-emphasis: bold;
+    text-shadow: 4px 4px 4px black;
+    box-shadow: 4px 0px 1.5rem black;
+    transition: transform 0.5s ease-in-out;
+    transform: translateX(.5rem);
+} */
+
+/* .dropBar:hover {
+    visibility: visible;
+    display: flex;
+    border: 1rem double;
+    border-radius: 5rem;
+    color: aliceblue;
+    box-shadow: 4px 0px 2.5rem
+    rgb(255, 255, 255); 
+    transition: transform 0.5s ease-in-out; transform: translateX(.5rem); 
+} */
+
+/* span {
+
+} */
+
+/* .navItem:hover span {
+    visibility:
+} */
 
 
 
