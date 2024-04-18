@@ -5,7 +5,6 @@ a:hover {
     color: rgb(255, 255, 255);
 }
 
-
 .projects {
     padding: 5.45rem;
     display: flex;
@@ -77,7 +76,6 @@ a:hover {
     box-shadow: 1px 20px 1rem 0px rgba(0, 0, 184, 0.2);
     list-style: none;
 }
-
 @media only screen and (max-width: 800px) {
     .grid-container {
         display: grid;
@@ -87,7 +85,38 @@ a:hover {
     }
     .projects {
         box-shadow: transparent;
+    }
+}
 
+@media only screen and (max-width: 600px) {
+    .projects {
+        padding: 3rem;
+    }
+    .projectsContent {
+        border-width: 0.5rem;
+        border-radius: 3rem;
+    }
+    .header {
+        justify-content: center;
+        margin-left: 0;
+        padding: 1rem;
+    }
+    .nest {
+        padding: 1.5rem;
+        margin: 1.5rem;
+        border-radius: 3rem;
+    }
+    .lists {
+        margin: 0.5rem;
+        padding: 0.5rem;
+        border-width: 0.3rem;
+        border-radius: 0.5rem;
+    }
+    .project1,
+    .project2,
+    .project3,
+    .project4 {
+        box-shadow: none;
     }
 }
 

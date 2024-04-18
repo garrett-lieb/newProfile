@@ -5,7 +5,7 @@ const Resume = () => {
   return (
     <div className="resume">
       <section className="resumeContent">
-      <h1>Resume</h1>
+      <h1 className="resumeHeader">Resume</h1>
       <div className="Jobs">
        <h2>Experience</h2>
         <div className="job">
