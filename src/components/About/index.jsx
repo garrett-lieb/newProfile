@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import githubMark from '../../assets/githubMark.png'
+import githubMark from '../../assets/githubMarkW.png'
 import linkdinMark from '../../assets/linkdinMark.png'
 import tba from '../../assets/Tba.png'
 
