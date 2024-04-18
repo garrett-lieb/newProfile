@@ -71,6 +71,9 @@ h3 {
         justify-content: center;
         margin-right: 0;
         padding-right: 0;
+        box-shadow:
+        0 0 0 2px white,
+        0.3em 0.3em 1em #06013c;
     }
     .job,
     .school {

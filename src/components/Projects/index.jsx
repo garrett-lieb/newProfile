@@ -6,7 +6,7 @@ const Projects = () => {
         <div className="projects">
             <section className="projectsContent">
             <section className="grid-container">
-                <h1 className="header">Projects</h1>
+                <h1 className="header">Projects:</h1>
 
                 <div className="nest">
                     <h2 className="project1">GroupProject3</h2>
