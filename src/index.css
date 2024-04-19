@@ -5,26 +5,9 @@
   font-weight: 400;
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-
-
-
-/* midnight gradient */
-  /* background: linear-gradient(90deg, #14004f, rgb(1, 89, 157), rgb(1, 52, 92)); */
-
-/* default -dark */
-  /* background-color: #2b77fb51; */
-
-/* default-light */
-  /* background-color: #c8fefb; */
-
 background:
   linear-gradient(-5deg, #1d00af 60%, teal 40%);
 background-size: .2rem .2rem;
-
-
-
-  
-
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -62,17 +45,12 @@ ul {
 }
 
 h1 {
-  padding: 1rem;
+  border: 1rem double darkblue;
+  border-radius: 3.25rem;
   background-image:
-  linear-gradient(to right, rgb(0, 133, 145), rgb(0, 183, 200), rgb(0, 179, 176));
-  border: 1rem solid;
-  border-radius: 5rem;
-  border-color: cadetblue;
-  box-shadow: 25px 0px 15px 5px rgb(47, 236, 253);
-  color: rgb(255, 255, 255);
-  line-height: 1.1;
+      linear-gradient(rgb(0, 179, 196), rgb(66, 115, 143), rgb(0, 179, 196));
   font-size: 3em;
-  text-shadow: 4px 4px 4px black;
+  font-weight: bold;
 }
 
 h2 {
@@ -114,7 +92,12 @@ p {
   line-height: 1.1;
 }
 
-/* button {
+button {
+  display: relative;
+  position: fixed;
+  top: 50%;
+  align-items: center;
+  justify-content: center;
   border-radius: 8px;
   border: 1px solid transparent;
   padding: 0.6em 1.2em;
@@ -125,13 +108,15 @@ p {
   cursor: pointer;
   transition: border-color 0.25s;
 }
+
 button:hover {
   border-color: #646cff;
 }
+
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
-} */
+}
 
 
 /* Mobile devices */
@@ -162,41 +147,5 @@ button:focus-visible {
   }
 }
 
-
-
-/* TIME OF DAY GRADIENTS test*/
-
-  /* sunrise gradient */
-  /* background: linear-gradient(0deg, #f2e200, #c17e02, #c17e027b,#358dff); */
-
-  /* morning gradient */
-  /* background: linear-gradient(0deg, #f6ddb9, #f5ec72, #09b8f8); */
-
-  /* midmorning gradient*/
-  /* background: linear-gradient(0deg,  #f5ec72, #09b8f8, #f6ddb9); */
-
-  /* afternoon gradient */
-  /* background: linear-gradient(0deg, #09b8f8, #f6ddb9, #f5ec72); */
-
-  /* evening gradient */
-  /* background: linear-gradient(0deg, #f5ec72, #f6ddb9, #09b8f8); */
-
-  /* sunset gradient */
-  /* background: linear-gradient(0deg, #f29100, #c17e02, #c17e027b,#003e90); */
-
-  /*dusk gradient */
-  /* background: linear-gradient(180deg, #0281c1, #025bc17b, #003e90, #0c0220); */
-
-  /* devtools stripes */
-  /* background: url('/src/assets/11.png'); */
-
-  /* 45-degree stripes */
-
-/* black (#000000) */
-/* background: linear-gradient(45deg, #000000 25%, transparent 25%),
-      linear-gradient(-45deg, #000000 25%, transparent 25%),
-      linear-gradient(45deg, transparent 75%, #000000 75%),
-      linear-gradient(-45deg, transparent 75%, #000000 75%);
-background-size: 10px 10px; */
 
 
