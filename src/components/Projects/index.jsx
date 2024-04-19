@@ -5,12 +5,13 @@ const Projects = () => {
     return (
         <div className="projects">
             <section className="projectsContent">
-            <section className="grid-container">
-                <h1 className="header">Projects</h1>
-
-                <div className="nest">
-                    <h2 className="project1">GroupProject3</h2>
-                    <img src="" alt="" />
+                <section className="grid-container">
+                    <div className="nest">
+                        <h1 className="header">Projects</h1>
+                    </div>
+                    <div className="nest">
+                        <h2 className="project1">GroupProject3</h2>
+                        <img src="" alt="" />
                         <ul className="lists">
                             <li>Under Construction</li>
                             <li>
@@ -19,8 +20,8 @@ const Projects = () => {
                         </ul>
                     </div>
                     <div className="nest">
-                    <h2 className="project2">Text-Editor</h2>
-                    <img src="" alt="" />
+                        <h2 className="project2">Text-Editor</h2>
+                        <img src="" alt="" />
                         <ul className="lists">
                             <li>Text editor and note taker with offline funtionality</li>
                             <li>
@@ -32,8 +33,8 @@ const Projects = () => {
                         </ul>
                     </div>
                     <div className="nest">
-                    <h2 className="project3">SocialNetworkAPI</h2>
-                    <img src="" alt="" />
+                        <h2 className="project3">SocialNetworkAPI</h2>
+                        <img src="" alt="" />
                         <ul className="lists">
                             <li>API for a social network web application.</li>
                             <li>
@@ -45,8 +46,8 @@ const Projects = () => {
                         </ul>
                     </div>
                     <div className="nest">
-                    <h2 className="project4">Gist - Matching an Email</h2>
-                    <img src="" alt="" />
+                        <h2 className="project4">Gist - Matching an Email</h2>
+                        <img src="" alt="" />
                         <ul className="lists">
                             <li>Matching an email with a gist</li>
                             <li>
