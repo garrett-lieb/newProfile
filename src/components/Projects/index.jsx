@@ -55,6 +55,18 @@ const Projects = () => {
                             </li>
                         </ul>
                     </div>
+                    <div className="nest">
+                        <h2></h2>
+                        <img src="" alt="" />
+                        <ul className="lists">
+                            <li></li>
+                            <li>
+                                <a href=""></a>
+                            </li>
+
+                        </ul>
+                    </div>
+
                 </section>
             </section>
         </div>

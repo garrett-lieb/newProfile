@@ -42,17 +42,6 @@ a:hover {
     gap: 2rem;
 }
 
-.nest {
-    padding: 2.5rem;
-    margin: 2.5rem;
-    border: 5px inset;
-    border-radius: 5rem;
-    border-color: cadetblue;
-    background-color: rgb(0, 179, 196);
-    background-image:
-        linear-gradient(rgb(0, 179, 196), rgb(66, 115, 143), rgb(0, 179, 196));
-}
-
 .lists {
     list-style-type: none;
     margin: 1rem;

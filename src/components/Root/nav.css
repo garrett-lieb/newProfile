@@ -23,7 +23,8 @@
     padding-inline: 1.5rem;
     background-image: 
     linear-gradient( rgb(0, 179, 196), rgb(66, 115, 143), rgb(0, 179, 196));
-    border: 1rem double;
+    border: 5px inset;
+    border-width: 1rem;
     border-radius: 5rem;
     border-color: #646cff;
     box-shadow: 4px 0px 1.5rem rgb(255, 255, 255);

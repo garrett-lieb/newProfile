@@ -32,12 +32,12 @@ const Resume = () => {
           <p>2024</p>
         </div>
         <div className="school">
-          <h3>Enlgish Literature</h3>
+          <h3>BA Enlgish Literature</h3>
           <h4>Seattle University</h4>
           <p>2015</p>
         </div>
         <div className="school">
-          <h3>Spanish</h3>
+          <h3>BA Spanish</h3>
           <h4>Seattle University</h4>
           <p>2015</p>
         </div>

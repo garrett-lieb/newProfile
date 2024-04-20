@@ -9,10 +9,10 @@ const About = () => {
   return (
     <div className="about">
       <section className="aboutContent">
-        <div>
+        <div className="nest">
           <h1 className="headerItem">Garrett Lieb</h1>
         </div>
-        <div>
+        <div className="nest">
           <p className="textBody">
             About me: I am a 31 yr old coding student in the 
             EdX Bootcamp via the University of Oregon.
@@ -27,7 +27,7 @@ const About = () => {
             <img src={githubMark} height="100" 
             alt="black github cat logo on a 'cadetblue (95, 168, 150)' background" />
           </a>
-          <a className="imageItem" href="">
+          <a className="imageItem" alt="white square with 'TBA' in grey letters in the center"> 
             <img src={tba} height="100" 
             alt="" />
           </a>

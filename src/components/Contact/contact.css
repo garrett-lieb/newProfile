@@ -15,10 +15,11 @@
     
     gap: 2rem;
     background-color: rgb(0, 179, 196);
-    border: 1rem solid;
+    border: 5px inset;
     border-radius: 5rem;
     border-color: cadetblue;
     color: rgb(255, 255, 255);
+    
 }
 
 .headerItem {
