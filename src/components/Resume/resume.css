@@ -15,7 +15,6 @@ h3 {
 
 .resume {
     padding: 5.45rem;
-    margin: 2rem;
     align-items: center;
     justify-content: middle;
     box-shadow: 0px 1rem 15px 55px rgb(47, 236, 253);
@@ -24,8 +23,6 @@ h3 {
 
 .resumeContent {
     display: grid;
-    margin: 1rem;
-    padding: 1rem;
     gap: 2rem;
     background-color: rgb(0, 179, 196);
     border: 1rem solid;
@@ -51,12 +48,12 @@ h3 {
 
 .Jobs {
     border: 1rem double;
-    border-radius: 2.5rem;
+    border-radius: 2rem;
 }
 
 .Schools {
     border: 1rem double;
-    border-radius: 2.5rem;
+    border-radius: 2rem;
 }
 
 
